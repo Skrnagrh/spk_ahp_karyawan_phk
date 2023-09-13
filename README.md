@@ -27,11 +27,10 @@ Sistem Pendukung Keputusan (SPK) ini adalah aplikasi berbasis web yang dikembang
 
 ## Persyaratan
 
-- PHP >= 7.3
+- PHP >= 8.1
 - Composer
-- Laravel >= 8.x
+- Laravel >= 10.x
 - MySQL atau Database Lainnya
-- [Laragon](https://laragon.org/) (Opsional, untuk pengembangan lokal)
 
 ## Panduan Instalasi
 
