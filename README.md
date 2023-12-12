@@ -78,5 +78,5 @@ Sistem Pendukung Keputusan (SPK) ini adalah aplikasi berbasis web yang dikembang
    php artisan serve
    ```
 
-9. Buka aplikasi di browser Anda dengan mengunjungi `http://localhost:8000`.
+9. Buka aplikasi di browser Anda dengan mengunjungi `http://localhost:8080`.
 
