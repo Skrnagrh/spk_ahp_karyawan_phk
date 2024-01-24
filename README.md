@@ -60,23 +60,43 @@ Sistem Pendukung Keputusan (SPK) ini adalah aplikasi berbasis web yang dikembang
    composer install
    ```
 
-6. Jalankan perintah berikut untuk menghasilkan kunci aplikasi:
+6. **Install Valet Windows:**
+
+   Instal [Valet Windows](https://packagist.org/packages/cretueusebiu/valet-windows) menggunakan Composer:
 
    ```bash
-   php artisan key:generate
+   composer global require cretueusebiu/valet-windows
    ```
 
-7. Migrasikan dan isi database Anda dengan data awal:
+   Pastikan untuk menambahkan direktori Composer global ke dalam PATH lingkungan.
+
+7. **Konfigurasi Valet:**
+
+   Jalankan perintah berikut untuk mengkonfigurasi Valet:
 
    ```bash
-   php artisan migrate --seed
+   valet install
    ```
 
-8. Jalankan server pengembangan:
+8. **Configurasi DNS menggunakan Acrylic:**
 
-   ```bash
-   php artisan serve
-   ```
+   Ikuti [panduan konfigurasi Acrylic](https://mayakron.altervista.org/support/acrylic/Windows10Configuration.htm) untuk mengatur DNS yang diperlukan oleh Valet Windows.
 
-9. Buka aplikasi di browser Anda dengan mengunjungi `http://localhost:8080`.
+9. **Jalankan Valet dan Link ke Proyek:**
+
+    Navigasikan ke direktori proyek dan jalankan perintah:
+
+    ```bash
+    valet link
+    ```
+
+10. **Migrasikan dan Isi Database:**
+
+    ```bash
+    php artisan migrate --seed
+    ```
+
+11. **Buka Aplikasi di Browser Anda:**
+
+    Buka aplikasi di browser Anda dengan mengunjungi `http://spk-ahp-karyawan-phk.test` atau sesuai dengan domain yang Anda atur dengan Valet.
 
