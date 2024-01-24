@@ -98,5 +98,5 @@ Sistem Pendukung Keputusan (SPK) ini adalah aplikasi berbasis web yang dikembang
 
 11. **Buka Aplikasi di Browser Anda:**
 
-    Buka aplikasi di browser Anda dengan mengunjungi `http://spk-ahp-karyawan-phk.test` atau sesuai dengan domain yang Anda atur dengan Valet.
+    Buka aplikasi di browser Anda dengan mengunjungi `http://spk_ahp_karyawan_phk.test` atau sesuai dengan domain yang Anda atur dengan Valet.
 
