@@ -35,7 +35,7 @@
                                 <div class="col-md-6">
                                     <img src="/beranda/assets/img/logo.png" width=120px />
                                 </div>
-                                <h4 class="text-info text-uppercase">PT. Indah Persada Tech</h4>
+                                <h4 class="text-info text-uppercase">SPK AHP</h4>
                                 <h6 class="text-info text-uppercase">Login</h6>
                             </div>
                             <form action="/login" method="post">

@@ -72,13 +72,12 @@
             <div class="row align-items-center justify-content-center text-center mt-3">
                 <div class="col-lg-8 align-self-end">
                     <img src="/beranda/assets/img/logo.png" width=200px />
-                    <h4 class="text-white font-weight-bold">PT. Indah Persada Tech</h4>
+                    <h4 class="text-white font-weight-bold">SPK AHP</h4>
                     <hr class="divider" />
                 </div>
                 <div class="col-lg-6 align-self-baseline">
-                    <p class="text-white-75">Sistem Pendukung keputusan pemilihan karyawan PHK
-                        pada PT. Indah Persada Tech menggunakan
-                        Metode Analytical Hierarchy Process (AHP)</p>
+                    <p class="text-white-75 text-capitalize">Sistem Pendukung keputusan pemilihan karyawan PHK
+                        menggunakan Metode Analytical Hierarchy Process (AHP)</p>
                 </div>
             </div>
         </div>
